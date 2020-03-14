@@ -7,6 +7,8 @@ use \Carbon\Carbon;
 use App\Doc;
 use App\Foto;
 use DB;
+use Exception;
+
 class DocController extends Controller
 {
     //
@@ -49,9 +51,9 @@ class DocController extends Controller
         $data->delete($request->all());
         return redirect('admin')->with('hapus', 'Data Telah Di Hapus');
     }
-    public function fotodownload($foto)
+    public function fotodownload($image)
     {
-        return response()->download(public_path("image/{$foto}"));
+return response()->download(public_path("image/{$image}"));
     }
     public function fotohapus(Request $request,$id)
     {

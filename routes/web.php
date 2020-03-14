@@ -32,8 +32,9 @@ Route::get('/admin/{id}/hapus', 'HomeController@hapus');
 Route::post('/admin/updoc', 'DocController@upload');
 Route::post('/admin/addfoto', 'DocController@foto');
 
-Route::get('/admin/{id}', 'DocController@download');
+Route::get('/admin/downloaddoc/{id}', 'DocController@download')->name('download');
 Route::get('/admin/{id}/dochapus', 'DocController@hapus');
 
-Route::get('/admin/{id}', 'DocController@fotodownload');
+Route::get('/admin/downloadimg/{id}', 'DocController@fotodownload');
 Route::get('/admin/{id}/fotohapus', 'DocController@fotohapus');
+

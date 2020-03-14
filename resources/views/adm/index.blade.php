@@ -216,7 +216,7 @@ document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                           <td>{{$no++}}</td>
                           <td>{{$doc->dokumen}}</td>
                           <td>
-                            <a href="/admin/{{$doc->dokumen}}" class="badge badge-success"><i class="fa fa-download"></i></a>
+                            <a href="/admin/downloaddoc/{{$doc->dokumen}}" class="badge badge-success"><i class="fa fa-download"></i></a>
                             <a href="/admin/{{$doc->id}}/dochapus" class="badge badge-danger"><i class="fa fa-trash"></i></a>
                           </td>
                         </tr>
@@ -258,7 +258,7 @@ document.write(thisDay + ', ' + day + ' ' + months[month] + ' ' + year);
                           <td>{{$img->image}}</td>
                           <td><img src="{{asset('image/'.$img->image)}}" alt="" width="100" height="100" class="rounded-circle"></td>
                           <td>
-                            <a href="/admin/{{$img->image}}" class="badge badge-success"><i class="fa fa-download"></i></a>
+                            <a href="/admin/downloadimg/{{$img->image}}" class="badge badge-success"><i class="fa fa-download"></i></a>
                             <a href="/admin/{{$img->id}}/fotohapus" class="badge badge-danger"><i class="fa fa-trash"></i></a>
                           </td>
                         </tr>
