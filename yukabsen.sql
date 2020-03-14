@@ -131,14 +131,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `kelas`, `email_verified_at`, `username`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'ari kun', 'arifarhan1602@gmail.com', '', NULL, '', '$2y$10$kCihN79dx1M48FLuvD7LTuQNozbECbgvIF2KFbIImflpdyijKNC/C', NULL, '2020-02-29 22:11:32', '2020-02-29 22:11:32'),
-(2, 'arikun', 'asu@gmail.com', '', NULL, 'arikun', '$2y$10$2dwhiHBz641AsFFCKLQEse7tUzJVzjFRXB8jxAeQtcN65rPKuDWs6', NULL, '2020-03-01 00:57:23', '2020-03-01 00:57:23'),
-(3, 'Meki', 'meki@meki.com', '', NULL, 'Meki', '$2y$10$wKFZR2Jnd46fqfksAwyg6eenKnMhB8nMBm36P6DGrblMpaKeRFkZe', NULL, '2020-03-01 01:01:37', '2020-03-01 01:01:37'),
-(5, 'Melia Reza Arsita', 'meliarezaa56@gmail.com', 'XB', NULL, 'melia', '$2y$10$A.N/ntWUw7vv5WYeTOD2SeeMeekhjS35i4KQ8AFHKvmGQAY2LTbX.', NULL, '2020-03-01 10:37:18', '2020-03-01 10:37:18'),
-(6, 'ARIKUN', 'asuasdawd@gmail.com', 'ADMIN', NULL, 'arikun', '$2y$10$eWzwibOdF6L.8dtw4MpcguHBj1zx5gZWW/HBkGFgtOMOefAOgY3Ta', NULL, '2020-03-03 07:23:18', '2020-03-03 07:23:18'),
-(7, 'asdawd', 'abhdkjabndakjwdaw@gmail.com', 'xb', NULL, 'adminku', '$2y$10$cYzDdpYWCavqzYVWv7RwY.MD8.xyJE99BtJFGftD/PUga4i.y0vky', NULL, '2020-03-03 07:42:32', '2020-03-03 07:42:32'),
-(8, 'arikun', 'arikun@yandex.com', '-', NULL, 'arikuntul', '$2y$10$y/J.uuvqrSFmOI2RRexDmOkUasSCHrepj.v7lZJlh5Qex9qyBdALG', NULL, '2020-03-03 08:49:02', '2020-03-03 08:49:02');
-
+(1, 'arikun', 'asu@gmail.com', '', NULL, 'arikun', '$2y$10$2dwhiHBz641AsFFCKLQEse7tUzJVzjFRXB8jxAeQtcN65rPKuDWs6', NULL, '2020-03-01 00:57:23', '2020-03-01 00:57:23');
 -- --------------------------------------------------------
 
 --
