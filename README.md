@@ -38,6 +38,7 @@ Laravel 6.x
 - Auto Direct To Login Page
 - No Onilne Style, All Style Offline
 - Crud
+- Custom Error Page
 
 # -
 - No Validation User
