@@ -19,7 +19,7 @@ This Application Was Made To make it easier for us to attend students and this a
 Full Version
 
 # CMS 
-Laravel 6.x
+YukAbsen [LARAVEL 6.x]
 
 # + 
 - Add New Absen
