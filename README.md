@@ -53,9 +53,11 @@ YukAbsen [LARAVEL 6.x]
 
 # Supported 
 
-My School : SMK TELEMATIKA INDRAMAYU <br>
+My School : <a href="http://www.smktelematika.sch.id/">SMK TELEMATIKA INDRAMAYU </a><br>
 
-My Team : IndramayuHackerLink | IndoSec | LaravelDev | IndoXploit | BekasiSec 
+My Team : <a href="https://www.indramayu.cf/">IndramayuHackerLink</a> | <a href="https://indosec.id">IndoSec</a>| <a href="https://indoxploit.or.id/">IndoXploit</a> | <a href="https://bekasicyberteam.blogspot.com/">BekasiSec</a> 
+<br>
+Please Follow My Blog : <a href="https://all-onetech.xyz">All-OneTech</a>
 
 # Contact Me 
 
