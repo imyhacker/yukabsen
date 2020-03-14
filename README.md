@@ -30,11 +30,11 @@ YukAbsen [LARAVEL 6.x]
 - Included Datatables
 - Included SwalFire
 - Included SB ADMIN 2
-- Custom Login
 - Included Reset Password With GOOGLE
+- Custom Login
 - Login With Username
 - Responsive Page
-- 2x Fast Response
+- 2x Fast Load Page
 - Auto Direct To Login Page
 - No Onilne Style, All Style Offline
 - Crud
@@ -51,10 +51,11 @@ YukAbsen [LARAVEL 6.x]
 - edit .env 
 - Use Your Brain
 
-
 # Supported 
 
-IndramayuHackerLink | IndoSec | LaravelDev | IndoXploit | BekasiSec 
+My School : SMK TELEMATIKA INDRAMAYU <br>
+
+My Team : IndramayuHackerLink | IndoSec | LaravelDev | IndoXploit | BekasiSec 
 
 # Contact Me 
 
@@ -64,4 +65,13 @@ Whatsapp : <a href="https://wa.me/+6285722537116"> Here ! </a> <br>
 
 # You Found Bug ? 
 
-Mail : <a href="mailto:arifarhan1602@gmail.com"> arifarhan1602@gmail.com </a>
+Mail : <a href="mailto:arifarhan1602@gmail.com"> arifarhan1602@gmail.com </a> <br>
+
+# This Picture 
+
+Login Page : <br>
+![YUKABSEN](https://user-images.githubusercontent.com/45889833/76686017-da0b2d00-664a-11ea-9a0a-b7351bdf4e80.png)<br>
+
+Dashboard Page : <br>
+![dash](https://user-images.githubusercontent.com/45889833/76686041-0a52cb80-664b-11ea-8add-4f3281de68fa.png)<br>
+
