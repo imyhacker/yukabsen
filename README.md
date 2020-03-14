@@ -69,9 +69,12 @@ Mail : <a href="mailto:arifarhan1602@gmail.com"> arifarhan1602@gmail.com </a> <b
 
 # This Picture 
 
-Login Page : <br>
+# Login Page : <br>
 ![YUKABSEN](https://user-images.githubusercontent.com/45889833/76686017-da0b2d00-664a-11ea-9a0a-b7351bdf4e80.png)<br>
 
-Dashboard Page : <br>
+# Dashboard Page : <br>
 ![dash](https://user-images.githubusercontent.com/45889833/76686041-0a52cb80-664b-11ea-8add-4f3281de68fa.png)<br>
+
+# Swal Fire : <br>
+![swal](https://user-images.githubusercontent.com/45889833/76686098-80efc900-664b-11ea-8775-edcc2509fe96.png)
 
