@@ -43,7 +43,7 @@ class DocController extends Controller
 
     public function download($doc)
     {
-        return response()->download(public_path("doc/{$doc}"));
+        return response()->download(public_path("doc/{$doc}")); 
     }
     public function hapus(Request $request,$id)
     {
