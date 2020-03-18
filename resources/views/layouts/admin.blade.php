@@ -127,7 +127,7 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item pt-10">
-        <a class="nav-link" href="/admin/add">
+        <a class="nav-link collapse-item" type="button" data-target="#Add" data-toggle="modal">
           <i class="fas fa-fw fa-plus"></i>
           <span>Add New Absen</span></a>
       </li>
@@ -141,10 +141,10 @@
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header">Utilities</h6>
 
-<a type="text" class="collapse-item" data-toggle="modal" data-target="#exampleModal">
+<a type="button" class="collapse-item" data-toggle="modal" data-target="#exampleModal">
  <i class="fas fa-fw fa-upload"></i> Upload Document
 </a>
-            <a type="text" class="collapse-item" data-toggle="modal" data-target="#exampleModalImg">
+            <a type="button" class="collapse-item" data-toggle="modal" data-target="#exampleModalImg">
  <i class="fas fa-fw fa-upload"></i> Upload Foto
 </a>
           </div>
@@ -252,13 +252,65 @@ text/plain, application/pdf" id="validatedCustomFile" name="FileUpload" accept="
 </div>
 
 
+<!-- Modal -->
+<div class="modal fade" id="Add" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Absen</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        
+                  <form method="POST" action="/admin/add/tambahken">
+                    @csrf
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Nama</span>
+  </div>
+  <input type="text" name="nama" value="{{Auth::user()->name}}" class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Kelas </span>
+  </div>
+  <input type="text" name="kelas" value="{{Auth::user()->kelas}}" class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon3">Tanggal </span>
+  </div>
+  <input type="text" name="tanggal" value="@php date_default_timezone_set('Asia/Jakarta');
+echo date('D, d M Y | H:i:s'); @endphp"class="form-control" id="basic-url" aria-describedby="basic-addon3" readonly>
+</div>
+
+<select class="form-control" name="kehadiran">
+  <option>Pilih Kehadiran</option>
+  <option value="Hadir">Hadir</option>
+  <option value="Izin">Izin</option>
+  <option value="Alfa">Alfa</option>
+</select>
+
+        </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary">Save changes</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalImg" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Upload Document</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Upload Image</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
